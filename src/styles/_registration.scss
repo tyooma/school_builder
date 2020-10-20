@@ -8,7 +8,7 @@
 
   &__title {
     margin-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 
     font-size: 50px;
     text-align: center;
@@ -19,6 +19,12 @@
 
       cursor: pointer;
     }
+  }
+
+  &__subtitle {
+    margin-bottom: 10px;
+
+    color: #6c757d;
   }
 
   &__form {
