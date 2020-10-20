@@ -1,0 +1,31 @@
+.registration {
+  margin-top: 160px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+    font-size: 50px;
+    text-align: center;
+
+    &:hover {
+      text-decoration: underline;
+      text-decoration-color: #007bff;
+
+      cursor: pointer;
+    }
+  }
+
+  &__form {
+    width: 500px;
+  }
+
+  &__btn {
+    margin-bottom: 100px;
+  }
+}

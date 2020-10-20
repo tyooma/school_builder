@@ -1,0 +1,14 @@
+@import "header";
+@import "beep";
+@import "nav";
+@import "about";
+@import "registration";
+@import "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}

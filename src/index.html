@@ -1,13 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FE Template</title>
-    <link rel="stylesheet" href="style.scss">
-    <script type="module" src="main.js"></script>
-  </head>
-  <body>
-    <h1>FE Template</h1>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>School Builder</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles/style.scss">
+        <script type="module" src="main.js"></script>
+    </head>
+    <body>
+          <header class="header">
+            <nav class="nav navbar navbar-expand-lg">
+              <div class="nav__container">
+                <img src="./img/brick-wall.png" alt="logo" class="nav__img">
+                <a class="navbar-brand nav__logo-text" href="#">
+                  School Builder
+                </a>
+              </div>
+            </nav>
+            <h2 class="header__title">
+              Who are you?
+            </h2>
+            <div class="beep beep--1"></div>
+            <div class="beep beep--2"></div>
+            <div class="beep beep--3"></div>
+            <div class="beep beep--4"></div>
+            <div class="beep beep--5"></div>
+            <div class="beep beep--6"></div>
+            <div class="beep beep--7"></div>
+            <div class="beep beep--8"></div>
+            <div class="beep beep--9"></div>
+            <div class="beep beep--10"></div>
+            <div class="beep beep--11"></div>
+            <div class="beep beep--12"></div>
+            <div class="header__circle-container"">
+                <a href="#registration" class="header__circle_employer bg-primary">
+                  Employer
+                </a>
+                <a href="#registration" class="header__circle_student bg-warning">
+                  Student
+                </a>
+            </div>
+        </header>
+        <main class="container">
+            <section class="about" id="about">
+              <h2 class="about__title">
+                School Builder Features
+              </h2>
+              <div class="about__content">
+                <div class="about__text">
+                  <p>
+                    - Free Education
+                  </p>
+                  <p>
+                    - Hight chance of employment
+                  </p>
+                  <p>
+                    - Stay in your favourite city
+                  </p>
+                  <p>
+                    - Help develop the future of Slavutych
+                  </p>
+                </div>
+              </div>
+              <div class="about__circle"></div>
+              <div class="about__circle_second"></div>
+            </section>
+            <section id="registration" class="registration">
+                <h2 class="registration__title">
+                  Easy Registration!
+                </h2>
+                <form class="registration__form">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Phone</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your phone with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary registration__btn">
+                      Submit
+                    </button>
+                </form>
+            </section>
+        </main>
+        <footer class="footer" id="footer">
+            <div class="footer__text"">
+              All rights reserved (C)
+            </div>
+        </footer>
+    </body>
 </html>

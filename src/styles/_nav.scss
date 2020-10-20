@@ -1,0 +1,29 @@
+.nav {
+  margin-right: auto;
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo-text {
+    color: #343a40;
+
+    transition: all 0.3s;
+
+    &:hover {
+      text-decoration: none;
+      color: #e83e8c;
+      cursor: pointer;
+    }
+  }
+
+  &__img {
+    margin-right: 15px;
+    height: 30px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

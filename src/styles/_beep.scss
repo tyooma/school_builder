@@ -1,0 +1,82 @@
+$mix-pink: #e83e8c;
+
+@mixin beep($w, $h, $t, $l, $c) {
+  position: absolute;
+  top: $t;
+  left: $l;
+
+  width: #{$w};
+  height: #{$h};
+
+  border: 2px solid $c;
+  border-radius: 500px;
+  transform: rotate(-65.1deg);
+  opacity: 0.5;
+
+  z-index: -1;
+}
+
+.beep {
+  
+  animation: 4s linear 0s infinite normal beep-animation;
+
+  &--1 {
+    @include beep(86px, 34px, 100px, 200px, $mix-pink);
+  }
+
+  &--2 {
+    @include beep(45px, 18px, 100px, 400px, $mix-pink);
+  }
+
+  &--3 {
+    @include beep(143px, 57px, 330px, 220px, $mix-pink);
+  }
+
+  &--4 {
+    @include beep(67px, 27px, 400px, 50px, $mix-pink);
+  }
+
+  &--5 {
+    @include beep(94px, 37px, 550px, 100px, $mix-pink);
+  }
+
+  &--6 {
+    @include beep(45px, 18px, 500px, 440px, $mix-pink);
+  }
+
+  &--7 {
+    @include beep(86px, 34px, 410px, 1200px, $mix-pink);
+  }
+
+  &--8 {
+    @include beep(86px, 34px, 300px, 1430px, $mix-pink);
+  }
+
+  &--9 {
+    @include beep(143px, 57px, 190px, 1280px, $mix-pink);
+  }
+
+  &--10 {
+    @include beep(154px, 61px, 480px, 1300px, $mix-pink);
+  }
+
+  &--11 {
+    @include beep(54px, 21px, 140px, 1450px, $mix-pink);
+  }
+
+  &--12 {
+    @include beep(45px, 18px, 530px, 1000px, $mix-pink);
+  }
+}
+
+@keyframes beep-animation {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
