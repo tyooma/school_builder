@@ -49,7 +49,7 @@ $mix-pink: #e83e8c;
   }
 
   &--8 {
-    @include beep(86px, 34px, 300px, 1430px, $mix-pink);
+    @include beep(86px, 34px, 300px, 1030px, $mix-pink);
   }
 
   &--9 {
@@ -61,7 +61,7 @@ $mix-pink: #e83e8c;
   }
 
   &--11 {
-    @include beep(54px, 21px, 140px, 1450px, $mix-pink);
+    @include beep(54px, 21px, 140px, 650px, $mix-pink);
   }
 
   &--12 {
